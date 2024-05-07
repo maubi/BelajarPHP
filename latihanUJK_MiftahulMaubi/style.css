@@ -1,0 +1,76 @@
+body {
+  background-color: #dfd0b8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+  background-color: white;
+  max-width: 500px;
+  max-height: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #153448;
+  border-radius: 10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #153448;
+  border-radius: 5px;
+}
+
+.header {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  background-color: #3c5b6f;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #153448;
+  width: 120px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(145, 144, 144, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+td {
+  vertical-align: middle;
+}
