@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+
+body {
+  font-family: "Jaldi", sans-serif;
+  background-color: #fff5e4;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.title {
+  font-family: "Jaldi", sans-serif;
+  color: #ff9494;
+}
+
+.table1 {
+  width: 40%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #ff9494;
+  color: white;
+  text-align: center;
+}
+
+td {
+  background-color: white;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #ffd1d1;
+  padding: 8px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Jaldi", sans-serif;
+  text-align: left;
+  background-color: #ff9494;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header a:hover {
+  color: white;
+  background-color: #ff6666;
+}
+
+h2 {
+  color: #ff9494;
+}
+
+.btn {
+  font-family: "Jaldi", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ff9494;
+  width: 120px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-property: transform, background-color;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  transform: scale(1.1);
+  background-color: #ff6666;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ffd1d1;
+  border-radius: 5px;
+}
+
+.form-container {
+  background-color: white;
+  max-width: 500px;
+  max-height: 270px;
+  padding: 20px;
+  border: 1px solid #ffd1d1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

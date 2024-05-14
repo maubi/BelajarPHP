@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+
+body {
+  font-family: "Jaldi", sans-serif;
+  background-color: #fff5e4;
+}
+
+.title {
+  font-family: "Jaldi", sans-serif;
+  color: #ff9494;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #ff9494;
+  color: white;
+  text-align: center;
+}
+td {
+  background-color: white;
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid #ffd1d1;
+  padding: 8px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Jaldi", sans-serif;
+  text-align: left;
+  background-color: #ff9494;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+button.pesan-button {
+  background-color: #ff9494;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.pesan-button:hover {
+  background-color: #ff6666;
+}

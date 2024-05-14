@@ -1,0 +1,63 @@
+[
+    {
+        "kode_pesawat": "GA123",
+        "nama_pesawat": "Garuda Indonesia",
+        "dari": "Jakarta",
+        "tujuan": "Surabaya",
+        "tanggal_berangkat": "2024-05-15",
+        "jam_berangkat": "08:00",
+        "harga_tiket": 1000000,
+        "nama_pemesan": "Miftahul Maubi",
+        "jumlah_tiket_dipesan": 5,
+        "email_pemesan": "miftahulmaubi@email.com",
+        "jumlah_dibayar": 5000000
+    },
+    {
+        "jumlah_tiket_dipesan": "3",
+        "nama_pemesan": "Miftahul Maubi",
+        "email_pemesan": "miftahulmaubi32@gmail.com"
+    },
+    {
+        "jumlah_tiket_dipesan": "3",
+        "nama_pemesan": "Miftahul Maubi",
+        "email_pemesan": "miftahulmaubi32@gmail.com"
+    },
+    {
+        "jumlah_tiket_dipesan": "3",
+        "nama_pemesan": "Miftahul Maubi",
+        "email_pemesan": "miftahulmaubi32@gmail.com",
+        "kode_pesawat": "ID345",
+        "nama_pesawat": "Citilink",
+        "dari": "Yogyakarta",
+        "tujuan": "Jakarta",
+        "tanggal_berangkat": "2024-05-23",
+        "jam_berangkat": "06:00",
+        "harga_tiket": "550000"
+    },
+    {
+        "jumlah_tiket_dipesan": "3",
+        "nama_pemesan": "Miftahul Maubi",
+        "email_pemesan": "miftahulmaubi32@gmail.com",
+        "kode_pesawat": "SJ123",
+        "nama_pesawat": "Sriwijaya Air",
+        "dari": "Jakarta",
+        "tujuan": "Palembang",
+        "tanggal_berangkat": "2024-05-20",
+        "jam_berangkat": "14:00",
+        "harga_tiket": "800000",
+        "total_harga": 2400000
+    },
+    {
+        "jumlah_tiket_dipesan": "2",
+        "nama_pemesan": "Paul Kim",
+        "email_pemesan": "paulkim@email.com",
+        "kode_pesawat": "JT912",
+        "nama_pesawat": "Lion Air",
+        "dari": "Medan",
+        "tujuan": "Bali",
+        "tanggal_berangkat": "2024-05-22",
+        "jam_berangkat": "10:45",
+        "harga_tiket": "950000",
+        "total_harga": 1900000
+    }
+]
